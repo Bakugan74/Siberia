@@ -72,7 +72,7 @@ body::-webkit-scrollbar {
     font-family: 'Inter';
     font-style: normal;
     font-weight:900;
-    font-size:6vmax;
+    font-size:5.5vmax;
     /* font-size: 96px; */
     line-height:normal;
     text-align: center;
@@ -224,7 +224,12 @@ body::-webkit-scrollbar {
 .place-url a:hover{
     text-decoration: underline;
 }
-
+.place-img{
+    max-width: 460px;
+}
+.place-img img{
+    width: 100%;
+}
 
 .place-text{
     max-width: 484px ;
