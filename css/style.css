@@ -173,20 +173,21 @@ body::-webkit-scrollbar {
 }
 .places{
     max-width: 984px;
-    /* margin: 0 132px 0  164px; */
     margin: 0 auto;
-    /* border: 1px solid aqua; */
+    margin-bottom:  50px;
 }
 .place{
     /* border: 1px solid orange; */
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 80px;
+    margin: 0 auto;
 
 }
 .place-h1{
-    width: 46.7%;
+    width: 45%;
     margin-bottom: 48px;
+    margin-left: 16px;
 }
 .place-h1 h1{
     margin: 0;
@@ -198,12 +199,13 @@ body::-webkit-scrollbar {
     color: #FFFFFF;
 }
 .place-url{
+    width:288px;
     padding-left: 30px;
     margin: auto 0px 48px 0px;
     
 }
 .place-url p{
-    
+   
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
