@@ -1,37 +1,43 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
-body{
+
+body {
     background-color: #2A2C2F;
     margin: 0;
     padding: 0;
-  
+
 }
+
 body::-webkit-scrollbar {
-	width: 9px;          
-  }
-  body::-webkit-scrollbar-track {
-	background: rgba(77, 73, 73, 0);      
-  }
-  body::-webkit-scrollbar-thumb {
-	background-color:  rgba(255, 255, 255, 0.81);;    
-	border-radius: 3px;       
-  }
-.wraper{
+    width: 9px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(77, 73, 73, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.81);
+    border-radius: 3px;
+}
+
+.wraper {
     max-width: 1280px;
     /* border: 1px solid red; */
     min-height: 100vh;
     margin: 0 auto;
 }
-.toper{
+
+.toper {
     height: 100px;
     /* border: 1px solid blue; */
     position: relative;
 }
-.toper .logo{
+
+.toper .logo {
     position: absolute;
     top: 28px;
     left: 48px;
-    
+
     width: auto;
     min-width: 142px;
     height: 52px;
@@ -40,15 +46,17 @@ body::-webkit-scrollbar {
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
-.toper .lang{
+
+.toper .lang {
     max-width: 100px;
     position: absolute;
     top: 46px;
     right: 48px;
-    align-items:end ;
+    align-items: end;
 
 }
-.toper .lang span{
+
+.toper .lang span {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -58,52 +66,58 @@ body::-webkit-scrollbar {
     text-align: right;
     margin-left: 18px;
 }
-.toper .lang span.active{
+
+.toper .lang span.active {
     text-decoration: underline;
 }
-.header{
+
+.header {
     max-width: 984px;
     height: auto;
     margin: 0 auto;
-    margin-bottom:92px;
+    margin-bottom: 92px;
 }
-.header h1{
+
+.header h1 {
     max-width: 720px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight:900;
-    font-size:5.5vmax;
+    font-weight: 900;
+    font-size: 5.5vmax;
     /* font-size: 96px; */
-    line-height:normal;
-    text-align: center;
-    margin: 0 auto;
-    color: #FFFFFF;
-}
-.header h2{
-    max-width: 640px;
-    margin-top: 40px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size:1.9vmax;
     line-height: normal;
     text-align: center;
     margin: 0 auto;
     color: #FFFFFF;
 }
-.header .img{
+
+.header h2 {
+    max-width: 640px;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9vmax;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.header .img {
     margin-top: 60px;
     max-width: 984px;
     height: auto;
 }
 
-.img img{
+.img img {
     width: 100%;
     height: auto;
     padding-bottom: 0;
     margin-bottom: 0;
 }
-.header .text-img{
+
+.header .text-img {
     position: relative;
     margin: 0;
     font-family: 'Inter';
@@ -114,33 +128,37 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.header .text-img p{
-    margin: 0; 
-    font-size:10px;
+
+.header .text-img p {
+    margin: 0;
+    font-size: 10px;
 }
-.wraper .intro{
+
+.wraper .intro {
     margin-top: 60px;
     max-width: 984px;
     height: auto;
     /* border: 1px solid aquamarine; */
     margin: 0 auto;
-    
+
 
 }
-.wraper .intro h1{
+
+.wraper .intro h1 {
     margin: 0;
     padding-bottom: 40px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size:5vmax;
+    font-size: 5vmax;
     line-height: normal;
     color: #FFFFFF;
     text-decoration: solid;
 }
-.wraper .intro p{
+
+.wraper .intro p {
     max-width: 690px;
-    font-family: 'Inter' , sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -149,13 +167,15 @@ body::-webkit-scrollbar {
     margin: 0;
     padding-bottom: 33px;
 }
-.wraper .intro ul{
+
+.wraper .intro ul {
     padding: 0;
     margin: 0;
     list-style: none;
     text-decoration: none;
 }
-.wraper .intro ul li{
+
+.wraper .intro ul li {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -163,40 +183,47 @@ body::-webkit-scrollbar {
     line-height: normal;
     color: #FFFFFF;
 }
-.galary-img{
-    margin:92px 32px;
-  
+
+.galary-img {
+    margin: 92px 32px;
+
 }
-.galary-img img:hover{
-    opacity:unset;
+
+.galary-img img:hover {
+    opacity: unset;
     transition: 0.6s all ease;
     transform: scale(1.1);
 }
-.galary-img img{
-     opacity: 0.6;
+
+.galary-img img {
+    opacity: 0.7;
     max-width: 284px;
     max-height: 213px;
     padding: 8px;
 }
-.places{
+
+.places {
     max-width: 984px;
     margin: 0 auto;
-    margin-bottom:  50px;
-    
+    margin-bottom: 50px;
+
 }
-.place{
+
+.place {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 80px;
     margin: 0 auto;
 
 }
-.place-h1{
+
+.place-h1 {
     width: 45%;
     margin-bottom: 48px;
     margin-left: 16px;
 }
-.place-h1 h1{
+
+.place-h1 h1 {
     margin: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -205,14 +232,16 @@ body::-webkit-scrollbar {
     line-height: normal;
     color: #FFFFFF;
 }
-.place-url{
-    width:288px;
+
+.place-url {
+    width: 288px;
     padding-left: 30px;
     margin: auto 0px 48px 0px;
-    
+
 }
-.place-url p{
-   
+
+.place-url p {
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -221,7 +250,8 @@ body::-webkit-scrollbar {
     letter-spacing: 2px;
     color: #AAAAAA;
 }
-.place-url a{
+
+.place-url a {
     text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
@@ -230,23 +260,27 @@ body::-webkit-scrollbar {
     line-height: 22px;
     color: #FFFFFF;
 }
-.place-url a:hover{
+
+.place-url a:hover {
     text-decoration: underline;
 }
-.place-img{
+
+.place-img {
     max-width: 460px;
 }
-.place-img img{
+
+.place-img img {
     width: 100%;
 }
 
-.place-text{
-    max-width: 484px ;
+.place-text {
+    max-width: 484px;
     font-size: 18px;
     margin-left: 30px;
 }
-.place-text p{
-    margin: 0 0 26px 0 ;
+
+.place-text p {
+    margin: 0 0 26px 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -254,14 +288,16 @@ body::-webkit-scrollbar {
     line-height: 163%;
     color: #FFFFFF;
 }
+
 .image {
     position: relative;
-    margin: 0px 48px 0px 48px ;
-    height:740px;
-    background: url(../img/__background.png)  no-repeat;
+    margin: 0px 48px 0px 48px;
+    height: 740px;
+    background: url(../img/__background.png) no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 }
+
 .image:before {
     content: '';
     display: block;
@@ -272,9 +308,9 @@ body::-webkit-scrollbar {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
-    
+
 .image-text {
     max-width: 560px;
     line-height: 80px;
@@ -286,10 +322,11 @@ body::-webkit-scrollbar {
     align-items: center;
     top: 35%;
     right: 25%;
- 
-    
+
+
 }
-.image-text h1{
+
+.image-text h1 {
     max-width: 560px;
     font-family: 'Inter';
     font-style: normal;
@@ -298,17 +335,18 @@ body::-webkit-scrollbar {
     line-height: 76px;
     color: #FFFFFF;
     text-align: center;
-    margin: 0px 0px  32px 0px;
+    margin: 0px 0px 32px 0px;
 
 }
-.image-text a{
+
+.image-text a {
     list-style: none;
     text-decoration: none;
     color: #FFFFFF;
 
 }
 
-.image-text p{
+.image-text p {
     width: 360px;
     font-family: 'Inter';
     font-style: normal;
@@ -322,21 +360,24 @@ body::-webkit-scrollbar {
 
 
 .image:hover:before {
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
-.footer{
+
+.footer {
 
     /* border: 1px solid pink; */
     margin-top: auto;
-    margin: 92px 48px 0px 48px ;
+    margin: 92px 48px 0px 48px;
 }
-.link{
+
+.link {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
-.footer ul{
+
+.footer ul {
     display: flex;
     margin: 0px 0px 24px 0px;
     padding: 0;
@@ -345,7 +386,7 @@ body::-webkit-scrollbar {
     flex-wrap: wrap;
 }
 
-.footer ul>li>a{
+.footer ul>li>a {
     margin-right: 18px;
     text-decoration: none;
     font-family: 'Inter';
@@ -356,7 +397,7 @@ body::-webkit-scrollbar {
     color: #FFFFFF;
 }
 
-.footer P{
+.footer P {
     margin: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -365,4 +406,86 @@ body::-webkit-scrollbar {
     line-height: 16px;
     text-align: right;
     color: #fff;
+}
+
+@media (max-width:1279px) {
+    .wraper {
+        width: 1024px
+    }
+}
+
+@media (max-width:320px) {
+    .toper .logo {
+        height: 42px;
+        top: 16px;
+        left: 16px;
+    }
+
+    .toper .lang {
+        top: 30px;
+        right: 16px;
+    }
+
+    .toper .lang span {
+        margin-left: 18px;
+        font-size: 18px;
+    }
+
+    .header {
+        margin-bottom: 64px;
+    }
+
+
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    .header .img {
+        margin-top: 40px;
+    }
+
+    .text-img {
+        font-size: 10px;
+    }
+
+    .image {
+        margin: 0;
+        width: 320px;
+        height: 200px;
+    }
+
+    .image-text {
+        top: 32px;
+        right: 0;
+    }
+
+    .image-text h1 {
+        width: 288px;
+        line-height: normal;
+        height: 70px;
+        font-size: 32px;
+    }
+
+    .image-text p {
+        width: 288px;
+        line-height: normal;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .galary-img {
+        margin: 12px 16px;
+    }
+
+    .galary-img img {
+        padding: 0;
+    }
 }
