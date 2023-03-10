@@ -250,9 +250,10 @@ body::-webkit-scrollbar {
 .image {
     position: relative;
     margin: 0px 48px 0px 48px ;
-    height: 740px;
-    background: url(../img/__background.png) 0px 0px no-repeat;
+    height:740px;
+    background: url(../img/__background.png)  no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 .image:before {
     content: '';
