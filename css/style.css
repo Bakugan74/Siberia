@@ -165,8 +165,15 @@ body::-webkit-scrollbar {
 }
 .galary-img{
     margin:92px 32px;
+  
+}
+.galary-img img:hover{
+    opacity:unset;
+    transition: 0.6s all ease;
+    transform: scale(1.1);
 }
 .galary-img img{
+     opacity: 0.6;
     max-width: 284px;
     max-height: 213px;
     padding: 8px;
@@ -175,9 +182,9 @@ body::-webkit-scrollbar {
     max-width: 984px;
     margin: 0 auto;
     margin-bottom:  50px;
+    
 }
 .place{
-    /* border: 1px solid orange; */
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 80px;
